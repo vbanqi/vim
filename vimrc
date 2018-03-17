@@ -76,6 +76,8 @@ Bundle 'Yggdroot/indentLine'
 Bundle 'scrooloose/nerdcommenter'
 " undotree
 Bundle 'mbbill/undotree'
+" h和cpp之间快速切换
+Bundle 'a.vim'
 """"""""themes"""""""""""""""
  "据说mac上的配色方案
 Bundle 'tomasr/molokai'
@@ -185,7 +187,8 @@ endfunction
 
 noremap <f2> :NERDTreeFind<cr>
 map <F9> :TagbarToggle<CR>
-nnoremap <F4> :UndotreeToggle<cr>
+"nnoremap <F4> :UndotreeToggle<cr>
+nnoremap <F4> :A<cr>
 """""""""""""""""""文件标签
 let g:Tagbar_title = "[Tagbar]"
 

@@ -30,6 +30,6 @@ ctrl+p	//open ctrlp plugin for find files
 ,gg	//go to the defination
 ,gi	//go to the include file --must move cursor to the '#inlcude' line
 F2	//open the nerdtree
-F4	//open the tags
+F4	//switch to .h or .cpp
 ...
 ```
